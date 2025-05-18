@@ -16,4 +16,4 @@ An interactive, browser-based drum kit for creating and recording beats. Perfect
     - Frontend: HTML, CSS, JavaScript
     - Audio Playback: HTML5 <audio> elements
     - Interactivity: JavaScript event handling and DOM manipulation
-    - Styling: CSS for layout, animations, and responsive design
+    - Styling: CSS for layout, animations, and responsive design.
