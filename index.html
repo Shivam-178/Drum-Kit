@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Drum Kit - Multi Track Recorder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1>🥁 Drum Kit 🎶</h1>
+
+  <div class="keys">
+    <button class="key" data-key="65">
+      <img src="images/clap.jpeg" alt="Clap">
+    </button>
+    <button class="key" data-key="83">
+      <img src="images/hihat.jpeg" alt="HiHat">
+    </button>
+    <button class="key" data-key="68">
+      <img src="images/kick.jpeg" alt="Kick">
+    </button>
+    <button class="key" data-key="70">
+      <img src="images/ride.jpeg" alt="Ride">
+    </button>
+    <button class="key" data-key="72">
+      <img src="images/snare.jpeg" alt="Snare">
+    </button>
+    <button class="key" data-key="74">
+      <img src="images/tom.jpeg" alt="Tom">
+    </button>
+    <button class="key" data-key="76">
+      <img src="images/tink.jpg" alt="Tink">
+    </button>
+  </div>
+
+  <div class="controls">
+    <button onclick="startRecording()">Start Recording 🎙️</button>
+    <button onclick="stopRecording()">Stop Recording ⏹️</button>
+  </div>
+
+  <h3>🎼 Your Tracks:</h3>
+  <div id="track-list"></div>
+
+  <!-- Sound Elements -->
+  <audio data-key="65" src="sounds/clap.mp3"></audio>
+  <audio data-key="83" src="sounds/hihat.mp3"></audio>
+  <audio data-key="68" src="sounds/kick.mp3"></audio>
+  <audio data-key="70" src="sounds/ride.mp3"></audio>
+  <audio data-key="72" src="sounds/snare.mp3"></audio>
+  <audio data-key="74" src="sounds/tom.mp3"></audio>
+  <audio data-key="76" src="sounds/tink.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
